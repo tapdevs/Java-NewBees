@@ -13,7 +13,9 @@ public class FibonacciSeries {
          * 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, ...
          *
          * By considering the terms in the Fibonacci sequence whose values do not exceed four million, find the sum of the even-valued terms.
+         *
          */
+
         while(sum <= limit) {
             firstNumber = secondNumber;
             secondNumber = sum;
@@ -21,7 +23,7 @@ public class FibonacciSeries {
             System.out.println("firstNumber = " + firstNumber + " secondNumber = " + secondNumber+ " sum = " + sum);
             if(sum % 2 == 0){
                 evenSum = evenSum + sum;
-                System.out.println("Even Sum" + evenSum);
+                System.out.println("Even Sum = " + evenSum);
             }
         }
     }
