@@ -18,7 +18,7 @@ public class Functions {
         int fictorial = calculateFictorial(userInput);
         printFictorialValue(fictorial);
         printEndOfProgrammeMessage();
-        int y = findValueOfY(10)
+        int y = findValueOfY(10);
         findValueOfX(y);
 
     }
